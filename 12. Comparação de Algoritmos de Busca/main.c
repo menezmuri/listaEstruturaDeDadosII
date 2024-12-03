@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 
-// Função Binary Search
+// FunÃ§Ã£o Binary Search
 int binarySearch(int arr[], int low, int high, int key) {
     while (low <= high) {
         int mid = low + (high - low) / 2;
@@ -16,7 +16,7 @@ int binarySearch(int arr[], int low, int high, int key) {
     return -1;
 }
 
-// Função Interpolation Search
+// FunÃ§Ã£o Interpolation Search
 int interpolationSearch(int arr[], int size, int key) {
     int low = 0, high = size - 1;
     while (low <= high && key >= arr[low] && key <= arr[high]) {
@@ -32,7 +32,7 @@ int interpolationSearch(int arr[], int size, int key) {
     return -1;
 }
 
-// Função Jump Search
+// FunÃ§Ã£o Jump Search
 int jumpSearch(int arr[], int size, int key) {
     int step = sqrt(size);
     int prev = 0;
