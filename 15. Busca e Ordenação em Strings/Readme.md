@@ -1,0 +1,2 @@
+O código usa o Quick Sort para ordenar uma lista de strings em ordem alfabética. A função strcmp é usada para comparar as strings.
+O Merge Sort pode ser implementado da mesma forma, substituindo a comparação por strcmp e a estrutura de particionamento.

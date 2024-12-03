@@ -1,0 +1,2 @@
+O código simula uma busca por ISBNs de livros utilizando o algoritmo Binary Search em um array de ISBNs ordenados.
+O array books contém ISBNs fictícios de livros e a função binarySearch localiza o índice do ISBN solicitado. Se encontrado, o índice é exibido, caso contrário, uma mensagem indicando que o livro não foi encontrado é exibida.

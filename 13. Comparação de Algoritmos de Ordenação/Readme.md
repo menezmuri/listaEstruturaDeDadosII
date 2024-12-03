@@ -1,0 +1,2 @@
+O código gera uma lista de 1000 números aleatórios e utiliza três algoritmos de ordenação: Selection Sort, Merge Sort e Quick Sort.
+O tempo de execução de cada algoritmo é calculado e exibido em milissegundos para comparar sua eficiência.
